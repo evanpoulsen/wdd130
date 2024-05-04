@@ -1,6 +1,6 @@
 @import url('https://fonts.google.com/specimen/Waterfall?query=waterfall');
 body {
-    font-family: var(waterfall);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }

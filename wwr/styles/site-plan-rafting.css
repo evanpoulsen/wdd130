@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
 
 body {
-    font-family: var(Waterfall);
+    font-family: 'Waterfall';
     max-width: 960px;
     padding: 20px;
 }

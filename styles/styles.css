@@ -83,3 +83,9 @@ aside {
         /* i most likely will have other declarations here */
         float: right;
     }
+
+    aside h2 {
+        position: absolute;
+        top: 47px;
+        left: 150px;
+    }

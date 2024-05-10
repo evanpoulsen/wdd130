@@ -1,6 +1,7 @@
-@import url(https://fonts.google.com/specimen/Waterfall?query=waterfall);
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+
 body {
-    font-family: var(--paragraph-font);
+    font-family: var(Waterfall);
     max-width: 960px;
     padding: 20px;
 }
@@ -21,7 +22,7 @@ body {
 }
 
 body {
-    font-family: var(--paragraph-font);
+    font-family: var(--heading-font);
     max-width: 960px;
     padding: 20px;
 }

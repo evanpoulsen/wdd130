@@ -1,25 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
 
-body {
-    font-family: 'Waterfall';
-    max-width: 960px;
-    padding: 20px;
-}
-
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
-
-aside image {
-    width: 200px;
-    height: auto;
-}
 :root {
     --primary-color: #6290c8;
     --secondary-color: #e7e8e7;
@@ -35,6 +15,50 @@ aside image {
     --nav-hover-background-color: #c5a48a;
 }
 
+body {
+    font-size: var(--primary-color);
+    max-width: 920px;
+    padding: 20px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+
+}
+
+main h1 {
+    position: relative;
+    top: -600px;
+    left: 350px;
+    color: black;
+}
+
+main article p {
+    position: relative;
+    height: 50px;
+    width: 300px;
+    top: -450px;
+    left: 300;
+    color: darkorchid;
+    float: right;
+    background-color: white;
+    padding: 5px;
+}
+main article img {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: -500px;
+    left: 300;
+    color: darkorchid;
+    float: right;
+}
+
+    section h2 {
+font-size: x-large;
+    }
 .hero img {
     display: block;
     width: 100%;

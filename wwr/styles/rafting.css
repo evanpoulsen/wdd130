@@ -6,6 +6,20 @@ body {
     padding: 20px;
 }
 
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside image {
+    width: 200px;
+    height: auto;
+}
 :root {
     --primary-color: #6290c8;
     --secondary-color: #e7e8e7;
@@ -21,44 +35,8 @@ body {
     --nav-hover-background-color: #c5a48a;
 }
 
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
-}
-
-p {
-    padding: 25px;
-}
-
-body {
-    font-family: var(--heading-font);
-    max-width: 960px;
-    padding: 20px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-}
-
-nav a {
+.hero img {
     display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-}
-
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+    width: 100%;
+    height: auto;
 }

@@ -61,6 +61,7 @@ article {
 
 .p {
     margin-left: -550px;
+    /* transparent colors */
     background-color: rgba(13, 45, 224, 0.5);
 }
 

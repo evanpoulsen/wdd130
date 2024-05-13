@@ -49,11 +49,6 @@ article {
     background-color: rgb(206, 206, 243);
 }
 
-# p {
-    float: right;
-    margin: 0 0 0 15px;
-}
-
 .hero img {
     display: block;
     width: 100%;

@@ -64,5 +64,8 @@ article {
     background-color: rgba(13, 45, 224, 0.5);
 }
 
-
+/* to remove underline on links */
+a {
+    text-decoration: none;
+}
 

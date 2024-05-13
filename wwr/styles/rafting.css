@@ -41,7 +41,7 @@ h1 {
 article {
     position: absolute;
     top: 400px;
-    right: 550px;
+    right: 600px;
     width: 300px;
     color: White;
 }
@@ -60,7 +60,7 @@ article {
 }
 
 .p {
-    margin-left: -550px;
+    margin-left: -500px;
     /* transparent colors */
     background-color: rgba(13, 45, 224, 0.5);
 }

@@ -27,30 +27,30 @@ h1, h2, h3, h4, h5, h6 {
     font-size: xxx-large;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     height: 110px;
     width: 135px;
-    top: 230px;
-    right: 900px;
+    top: -30px;
+    right: 550px;
     float: right;
     color: green;
     background-color: rgba(184, 219, 235, 0.5);
 }
 
-article {
-    position: absolute;
-    top: 400px;
-    right: 600px;
-    width: 300px;
-    color: White;
-}
-
-.hero img {
+.hero {
     display: block;
     width: 100%;
     height: auto;
     position: relative;
+}
+
+article {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    width: 100px;
+    color: White;
 }
 
 .image {

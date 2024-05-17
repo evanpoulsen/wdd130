@@ -53,10 +53,9 @@ article {
     color: White;
 }
 
-.image {
+.hero article img {
     float: right;
-    margin-right: 0px;
-    background-color: rgba(13, 45, 224, 0.5);
+    width: 200px;
 }
 
 .p {

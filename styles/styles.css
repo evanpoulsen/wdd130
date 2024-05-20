@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* for flex work for nav */
 nav {
     background-color: steelblue;
     padding: 1rem;
@@ -22,6 +22,7 @@ nav a {
 }
     h1 {
     color: steelblue;
+    /* for border installations */
     border-bottom: 2px solid black;
 }
 
@@ -93,6 +94,7 @@ p {
         left: 0px;
     }
 
+    /* grid work also remove all other max-width after adding it here */
 header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
@@ -114,3 +116,4 @@ aside {
     grid-column: 1/2;
     grid-row: 1/2;
 }
+

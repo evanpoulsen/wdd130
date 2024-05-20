@@ -93,26 +93,28 @@ article {
     /* transparent colors */
     background-color: rgba(13, 45, 224, 0.5);
 }
-.section-2 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: auto;
+
+.section {
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.section-2, h2 {
+figure {
+    border: thin #c0c0c0 solid;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    grid-gap: 30px
-}
-
-.section-2p {
-top: 0px;
-right: 0px;
-width: 150px;
-position: relative;
-}
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
 
 /* to remove underline on links */
 a {

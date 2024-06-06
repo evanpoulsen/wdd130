@@ -114,6 +114,87 @@ h6 {
     position: relative;
 }
 
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    position: relative;
+}
+.home h1{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 100px;
+    float: right;
+    color: white;
+}
+
+.home a {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 180px;
+    float: right;
+    margin: 1rem;
+    background: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+.home2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    position: relative;
+}
+.home2 h1{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 100px;
+    float: right;
+    color: black;
+    background-color: rgba(184, 219, 235, 0.5);
+}
+
+.home2 a {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 300px;
+    float: right;
+    margin: 1rem;
+    background: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+.form2 {width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: #024f22;
+    display: grid;
+}
+
+.legend2 {
+        padding: 0.5rem;
+        color: white;
+        font-size: 1.3em;
+}
+
 article {
     position: absolute;
     top: 150px;
@@ -127,6 +208,7 @@ article {
     justify-content: space-evenly;
     align-items: center;
     height: 100px;
+    width: 150px;
     position: absolute;
     left: 90px;
 }
